@@ -1,0 +1,19 @@
+{
+    "name": "hatembenhamza/live_coding_project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hatem Ben Hamza",
+            "email": "hatembenhamzacrk09@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.3"
+    },
+    "autoload" : {
+    	"psr-4" : {
+    		"Classes\\" : "src/classes",
+    		"Interfaces\\" : "src/interfaces"
+    	}
+    }
+}
